@@ -1,0 +1,9 @@
+name: sage-binder-env
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - ipywidgets
+  - sage=9.5
